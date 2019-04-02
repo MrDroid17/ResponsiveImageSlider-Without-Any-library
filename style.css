@@ -84,7 +84,18 @@ body{
   color: #333;
 }
 
+/* add media queries  */
+@media (max-width: 450px){
+  .slide .content{
+    bottom: -300px;
+    left: 0;
+    width: 100%;
+  }
 
+  .slide.current .content{
+    transform: translateY(-300px)
+  }
+}
 
 
 
